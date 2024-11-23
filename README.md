@@ -16,3 +16,18 @@ A School Database is created using the basic DDL Commands
     Remove the table entirely using DROP.
 
 
+## Assignment 2 - DDL Constraints
+
+A Sales Database is created using basic DDL Constrints such as PRIMARY KEY, NOT NULL AND UNIQUE. Further manipulated/updated the database with DDL & DML commands such as INSERT, RENAME, UPDATE, ADD and  DROP etc.
+
+### Summary of Commands:
+
+    Created the database and table.
+    Added a new column to the table.
+    Renamed the table.
+    Inserted 10 rows into the renamed table.
+    Retrieved specific columns using SELECT command.
+    Updated a specific row in the table.
+    Dropped the table entirely from the database.
+
+
