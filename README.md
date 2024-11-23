@@ -31,3 +31,15 @@ A Sales Database is created using basic DDL Constrints such as PRIMARY KEY, NOT 
     Dropped the table entirely from the database.
 
 
+## Assignment 3 - DML Commands
+
+A Organisation database is created in which a Managers table is created with specific constriants. Required data/records are then retrieved with different DML commands
+
+### Summary of Commands : 
+    Created the Managers table with constraints like PRIMARY KEY, NOT NULL, and CHECK.
+    Inserted 10 rows with relevant data.
+    Retrieved specific manager information using SELECT.
+    Calculated annual income using expressions in the query.
+    Filtered records using WHERE with conditions like !=, BETWEEN, and logical operators like AND.
+
+
