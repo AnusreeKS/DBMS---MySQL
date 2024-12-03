@@ -42,4 +42,18 @@ A Organisation database is created in which a Managers table is created with spe
     Calculated annual income using expressions in the query.
     Filtered records using WHERE with conditions like !=, BETWEEN, and logical operators like AND.
 
+    
+## Assignment 4 - SQL Queries
+
+This project demonstrates the use of SQL for creating, managing, and querying relational databases. It includes two tables: Country and Persons, which contain information about countries and individuals, respectively. The project showcases various SQL operations such as table creation, data insertion, and complex queries.
+
+### Summary of Commands :
+
+    Created Country database with 2 tables Country and Persons
+    Inserted 10 rows of relevant data.
+    Retrieve distinct records using the DISTINCT funtion.
+    Used AS function to show alias names in the result.
+    Logicl operators(AND, OR), Comparison operators(<,>,=), IN and BETWEEN operators and LIKE function were used to retrieve the required records from the table.
+    
+
 
