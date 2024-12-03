@@ -54,6 +54,24 @@ This project demonstrates the use of SQL for creating, managing, and querying re
     Retrieve distinct records using the DISTINCT funtion.
     Used AS function to show alias names in the result.
     Logicl operators(AND, OR), Comparison operators(<,>,=), IN and BETWEEN operators and LIKE function were used to retrieve the required records from the table.
+
+## Assigment 5 - Grouping and Sorting 
+
+This project involves working with two related tables: Country and Persons. The project showcases various SQL operations, such as table creation, data insertion, along with GROUP BY and ORDER BY functions for grouping and sorting of the records.
+
+### Summary of Commands
+
+    Created Population database with 2 tables Country and Persons
+    Inserted 15 rows of relevant data.
+    Substring function was used to retrtieve a substring of specific length 
+    Used AS function to show alias names in the result.
+    Arithmetic functions such as MAX, MIN, COUNT,AVG etc were used to retirive the required records from the table.
+    LIMIT function was used to limit the number of records returned from a query.
+    GROUP BY function is used to group the records in the table according to the given condition.
+    ORDER BY function was used to sort the result of the query.
+    HAVING function is used filter the records in the table acoording to a givwen condition.
+
+    
     
 
 
