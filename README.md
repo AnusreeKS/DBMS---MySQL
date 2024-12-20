@@ -71,6 +71,20 @@ This project involves working with two related tables: Country and Persons. The 
     ORDER BY function was used to sort the result of the query.
     HAVING function is used filter the records in the table acoording to a givwen condition.
 
+
+## Assignment 6 - Joins and Unions
+
+This document provides instructions for performing specific SQL operations on the Country and Persons tables. The tasks include joining tables, listing country names, and manipulating data.
+
+### Summary of Commands
+
+    INNER JOIN is used to retrieve matching rows from both the Country and Persons tables based on the Country_Id
+    LEFT JOIN is used to retrieve all rows from the Persons table, and the matching rows from the Country table. If no match is found, NULL values are included for the Country columns.
+    RIGHT JOIN is used to retrieve all rows from the Country table, and the matching rows from the Persons table. If no match is found, NULL values are included for the Persons columns.
+    DISTINCT and UNION commands are used to retrieve all unique country names present in either the Country or Persons tables.
+    Just UNION command is used to retrieve all country names present in both the Country and Persons tables, allowing duplicates.
+    ROUND command is used to display the Persons table with ratings rounded to the nearest integer.
+
     
     
 
