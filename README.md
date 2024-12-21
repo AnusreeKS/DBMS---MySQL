@@ -85,6 +85,18 @@ This document provides instructions for performing specific SQL operations on th
     Just UNION command is used to retrieve all country names present in both the Country and Persons tables, allowing duplicates.
     ROUND command is used to display the Persons table with ratings rounded to the nearest integer.
 
+
+## Assignment 7 - Functions
+
+The file contains SQL commands for managing a database named Country, with specific operations performed on its tables. The primary focus is on adding and updating a DOB column to the Persons Table, calculating age from DOB using a user-defined function, and performing various other operations with SQL built-in-functions as well on the Country table.
+
+### Sumary of Cammands
+
+    Altered the Persons table in the Country database by adding a DOB column and added values using the update command
+    Wrote a User Defined Function called CalculateAge() to calculate the age by giving DOB as the parameter.
+    Select query to fetch the Age of all persons using the function created CalculateAge() giving DOB of Persons as its parameter.
+    Used SQL Built-In-Functions such as Length(),Substr(), Ucase() and Lcase() to get the desired results on the Country table.
+
     
     
 
