@@ -97,6 +97,16 @@ The file contains SQL commands for managing a database named Country, with speci
     Select query to fetch the Age of all persons using the function created CalculateAge() giving DOB of Persons as its parameter.
     Used SQL Built-In-Functions such as Length(),Substr(), Ucase() and Lcase() to get the desired results on the Country table.
 
+## Assignment 8 - Subqueries and Views
+
+The sql file contains  commands for mananging the database Country, subqueries, creating views with specific operation performed in the tables and views. The primary focus is on subqueries and creating desired views.
+
+### Summary of Commands
+    Subqueries are written to get the desired output as per the requirements.
+    A new table named Customer is created and values were inserted for further use of creating views.
+    Creating and updating of views were done as per the required conditions.
+    Various built-in SQl commads and aggregae functions such as create, update, group by, order by etc were used as per requirement to get the desired result/views.
+
     
     
 
