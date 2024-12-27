@@ -107,6 +107,18 @@ The sql file contains  commands for mananging the database Country, subqueries, 
     Creating and updating of views were done as per the required conditions.
     Various built-in SQl commads and aggregae functions such as create, update, group by, order by etc were used as per requirement to get the desired result/views.
 
+## Assignment 9 - Stored Procedures
+
+This sql file outlines the strored procedures created for managing the Worker table in the Worker Database along with their usage and examples.
+
+### Summary of Commands 
+    Wroker taqble schema is defined with required attributes and datatypes.
+    A stored procedure named AddWorker() is written to take in the column values as input parameters to add those values to the worker table.
+    Stored procedure GetWorkerSalary() is written to  retrieve Salary(Out Parameter) based on Worker ID(In Parameter).
+    Stored procedure UpdateWorkerDepartment() is written to  update Department(In) with the given the Worker Id(In) in the worker table.
+    Stored procedure GetWorkerCountByDepartment() is written to give the total worker count(Out) in any deaprtment given the department name(In) from the worker table.
+    Stored procedu8re DeptAvgSalary() is written to get the average salary of the particular department given as the input parameter from the wroker table.
+
     
     
 
