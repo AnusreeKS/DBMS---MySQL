@@ -119,6 +119,33 @@ This sql file outlines the strored procedures created for managing the Worker ta
     Stored procedure GetWorkerCountByDepartment() is written to give the total worker count(Out) in any deaprtment given the department name(In) from the worker table.
     Stored procedu8re DeptAvgSalary() is written to get the average salary of the particular department given as the input parameter from the wroker table.
 
+
+## Assignment 10 - Triggers
+
+This project implements a teachers table with related SQL triggers to enforce data integrity, validate input, and log actions for INSERT and DELETE operations. It ensures proper management of the data in a relational database.
+
+### Summary of Commands 
+
+Two tables are Techers and Teachers_Log are created accroding to the given attributes :
+
+    Teachers: Stores details of teachers, including their ID, name, subject, experience, and salary.
+    
+    Teacher_Log: Logs actions performed on the teachers table, including inserts and deletions.Use the log table for auditing changes to the teachers table.
+    
+
+Triggers ensure data consistency and enforce business rules. We can modify the trigger logic to adapt to specific requirements. The following Triggers are created to initiate the necessary events when and where required :
+
+before_insert_teacher: Validates salary during insertion to ensure it is not negative.
+
+after_insert_teacher: Logs every new entry in the teachers table into the teacher_log table.
+
+before_delete_teacher: Prevents deletion of teachers with more than 10 years of experience.
+
+after_delete_teacher: Logs every deletion in the teachers table into the teacher_log table.
+
+
+
+
     
     
 
