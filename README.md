@@ -126,14 +126,16 @@ This project implements a teachers table with related SQL triggers to enforce da
 
 ### Summary of Commands 
 
-Two tables are Techers and Teachers_Log are created accroding to the given attributes :
+Two tables , Techers and Teachers_Log are created according to the given attributes :
 
     Teachers: Stores details of teachers, including their ID, name, subject, experience, and salary.
     
-    Teacher_Log: Logs actions performed on the teachers table, including inserts and deletions.Use the log table for auditing changes to the teachers table.
+    Teacher_Log: Logs actions performed on the teachers table, including inserts and deletions.
+    Use the log table for auditing changes to the teachers table.
     
 
-Triggers ensure data consistency and enforce business rules. We can modify the trigger logic to adapt to specific requirements. The following Triggers are created to initiate the necessary events when and where required :
+Triggers ensure data consistency and enforce business rules. We can modify the trigger logic to adapt to specific requirements. 
+The following Triggers are created to initiate the necessary events when and where required :
 
 before_insert_teacher: Validates salary during insertion to ensure it is not negative.
 
